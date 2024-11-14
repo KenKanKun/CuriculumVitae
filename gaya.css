@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat', sans-serif;
+    color: white;
+}
+
+body{
+    background: #0B192C;
+    min-height: 100vh;
+}
+
+.card{
+    margin-right: auto;
+    width: 300px;
+    min-height: 100%;
+    overflow: hidden;
+    line-height: 20PX;
+    background: linear-gradient(to right, #1E3E62, #142d4a);
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 2);
+    padding: 15px;
+    position: fixed;
+}
+
+.omg{
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    border: 7px solid rgb(0, 114, 114);
+    position: absolute;
+    left: calc(60px);
+    top: 70px;
+}
+
+h3.JUDUL{
+    text-align: center;
+    padding: 5px;
+    color: #ffffff;
+}
+
+h2.box {
+    padding: 2px 70px 2px 20px;
+    display: inline-block;
+    justify-content: center;
+    background-color: #76ABAE;
+    margin-left: -20px;
+    margin-top: 10px; 
+    color: #080027;
+}
+
+ul li {
+    font-size: large;
+    font-weight: bold;
+}
+
+ul p {
+    color: #76ABAE;
+}
+.border-tr{
+    border-radius: 5px;
+    background-color: #76ABAE;
+    border: 2px solid #486a6c;
+    margin-bottom: auto;
+    box-shadow: 0 2px 4px rgb(31, 31, 31);
+}
+
+.icon{
+    justify-content: center;
+    display: flex;
+}
+
+a:hover{
+    color:white;
+}
+.icon-itms{
+    width: 70px;
+    border-radius: 30px;
+    padding: 15px;
+}
+
+.nama{
+    margin-top: 180px;
+}
+
+li.sub{
+    color: #fff;
+}
+
+.left{
+    text-align: left;
+    padding: 10px;
+}
+
+.rodok-nengah{
+    padding: 5px;
+    margin-left: 10px;
+}
+
+h3{
+    text-align: center;
+    text-shadow: 0 2px 2px rgb(33, 33, 33);
+    padding-top: 20px;
+    padding-bottom: 3px;
+}
+
+.center{
+    margin: auto;
+    text-align: left;
+}
+
+h5 { 
+    padding-top: 10px;
+    padding-bottom: 5px
+}
+div.left{
+    padding-left: 310px;
+}
